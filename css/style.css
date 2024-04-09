@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+.auto__wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.auto__title {
+  align-item: center;
+  margin-bottom: 10px;
+}
+.auto__subtitle {
+  margin-bottom: 20px;
+}
+.auto__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.auto__cars {
+  display: flex;
+  gap: 50px;
+}
+.auto__bikes {
+  display: flex;
+  gap: 50px;
+}
+.auto__box {
+  margin-bottom: 20px;
+}
+.auto__name {
+  font-size: 20px;
+}
+.auto__img {
+  width: 300px;
+  height: 130px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}/*# sourceMappingURL=style.css.map */
